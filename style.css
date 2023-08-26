@@ -242,9 +242,9 @@
     pointer-events: none;
     content: "";
     position: absolute;
-    top: 10%;
+    top: 1%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 350%);
     height: 100%;
     width: 100%;
     background-color: var(--glow-spread-color);
@@ -259,9 +259,9 @@
     box-shadow: 0 0 1em .25em var(--glow-color),
            0 0 4em 2em var(--glow-spread-color),
            inset 0 0 .75em .25em var(--glow-color);
-           top: 10%;
-           left: 50%;
-           transform: translate(-50%, -50%);
+           top: 1%;
+    left: 50%;
+    transform: translate(-50%, 350%);
         }
    
    button:active {
@@ -269,6 +269,6 @@
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
            top: 1%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+           left: 50%;
+           transform: translate(-50%, 350%);
    }
